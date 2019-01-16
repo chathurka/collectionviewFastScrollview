@@ -12,6 +12,8 @@
 		07E31DB321EFA7F800E10DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E31DB121EFA7F800E10DEC /* Main.storyboard */; };
 		07E31DB521EFA7F900E10DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E31DB421EFA7F900E10DEC /* Assets.xcassets */; };
 		07E31DB821EFA7F900E10DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E31DB621EFA7F900E10DEC /* LaunchScreen.storyboard */; };
+		07E31DC021EFAC1E00E10DEC /* FastScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E31DBF21EFAC1E00E10DEC /* FastScrollView.xib */; };
+		07E31DC221EFAC3300E10DEC /* FastScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E31DC121EFAC3300E10DEC /* FastScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		07E31DB421EFA7F900E10DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07E31DB721EFA7F900E10DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07E31DB921EFA7F900E10DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07E31DBF21EFAC1E00E10DEC /* FastScrollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FastScrollView.xib; sourceTree = "<group>"; };
+		07E31DC121EFAC3300E10DEC /* FastScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				07E31DB421EFA7F900E10DEC /* Assets.xcassets */,
 				07E31DB621EFA7F900E10DEC /* LaunchScreen.storyboard */,
 				07E31DB921EFA7F900E10DEC /* Info.plist */,
+				07E31DBF21EFAC1E00E10DEC /* FastScrollView.xib */,
+				07E31DC121EFAC3300E10DEC /* FastScrollView.swift */,
 			);
 			path = FastScrollView;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				07E31DB821EFA7F900E10DEC /* LaunchScreen.storyboard in Resources */,
 				07E31DB521EFA7F900E10DEC /* Assets.xcassets in Resources */,
 				07E31DB321EFA7F800E10DEC /* Main.storyboard in Resources */,
+				07E31DC021EFAC1E00E10DEC /* FastScrollView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E31DC221EFAC3300E10DEC /* FastScrollView.swift in Sources */,
 				07E31DB021EFA7F800E10DEC /* ViewController.swift in Sources */,
 				07E31DAE21EFA7F800E10DEC /* AppDelegate.swift in Sources */,
 			);
